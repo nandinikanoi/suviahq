@@ -669,13 +669,15 @@ footer {
   }
 
   .site-nav {
-    display: flex;
-    grid-column: 1 / -1;
-    grid-row: 2;
-    justify-self: start;
-    gap: 30px;
-    font-size: 0.56rem;
-  }
+  display: flex;
+  width: 100%;
+  grid-column: 1 / -1;
+  grid-row: 2;
+  justify-self: stretch;
+  justify-content: center;
+  gap: 30px;
+  font-size: 0.56rem;
+}
 
   .hero {
     min-height: auto;
