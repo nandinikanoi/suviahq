@@ -1,39 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suvia LLC</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f8f9fa;
-            color: #212529;
-            text-align: center;
-        }
-        .container {
-            max-width: 600px;
-            padding: 40px;
-            background: #ffffff;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-        }
-        h1 { margin-bottom: 10px; font-size: 2.2rem; }
-        p { color: #6c757d; line-height: 1.6; }
-        .tag { font-weight: 600; color: #0d6efd; margin-top: 20px; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suvia LLC — Coming Soon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>Suvia LLC</h1>
-        <p class="tag">Founded by Nandini Kanoi</p>
-        <p>Suvia LLC is a Colorado-registered entity currently operating in pre-launch mode.</p>
-        <p style="font-size: 0.85rem; margin-top: 30px;">&copy; 2026 Suvia LLC. All rights reserved.</p>
+
+  <!-- Navigation / Header -->
+  <header class="navbar">
+    <a href="#top" class="brand">Suvia<span>.</span></a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#founder">Founder</a>
+    </nav>
+    <div class="status-badge">
+      <span class="dot"></span> Coming soon
     </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <span class="section-num">01 — Independent technology company</span>
+        <h1>A clearer path to <em>financial possibility.</em></h1>
+        <p class="subtitle">Suvia is focused on making financial opportunity more navigable for small businesses.</p>
+        <a href="#about" class="cta-link">Discover Suvia <span class="arrow">↘</span></a>
+      </div>
+      <div class="hero-image">
+        <div class="image-placeholder"></div>
+        <div class="caption">
+          <span>Thoughtful by design</span>
+          <span>Colorado · 2026</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="section-header">
+        <span class="section-num">01</span>
+        <h2>About Suvia</h2>
+        <p class="tagline">Clarity · Access · Possibility</p>
+      </div>
+      <div class="about-content">
+        <h3>Complex systems deserve <em>clearer thinking.</em></h3>
+        <p>Suvia brings financial expertise and responsible technology together around a simple belief: opportunity should be easier to understand and more human to navigate.</p>
+        <div class="principles">
+          <span>Clearer</span>
+          <span>Considered</span>
+          <span>Human</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Banner Ticker -->
+    <section class="ticker-banner">
+      <div class="ticker-track">
+        <span>Rigorous thinking ✦ Responsible technology ✦ Human impact ✦</span>
+        <span>Rigorous thinking ✦ Responsible technology ✦ Human impact ✦</span>
+      </div>
+    </section>
+
+    <!-- Founder Section -->
+    <section id="founder" class="founder">
+      <div class="section-header">
+        <span class="section-num">02</span>
+        <h2>Founder</h2>
+        <p class="tagline">Suvia LLC</p>
+      </div>
+      <div class="founder-grid">
+        <div class="founder-title">
+          <p>Founded by</p>
+          <h2>Nandini Kanoi</h2>
+        </div>
+        <div class="founder-bio">
+          <p class="lead">Finance, transformation, governance, and emerging technology.</p>
+          <p>Nandini brings experience across finance, accounting transformation, governance, and the responsible application of emerging technology. She founded Suvia with the belief that rigorous thinking and human impact belong in the same room.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-top">
+      <a href="#top" class="brand">Suvia<span>.</span></a>
+      <p>Coming soon</p>
+    </div>
+    <div class="footer-bottom">
+      <p>Colorado, United States</p>
+      <p>© 2026 Suvia LLC. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
