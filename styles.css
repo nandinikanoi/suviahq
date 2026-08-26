@@ -817,16 +817,16 @@ footer {
   }
 }
 
-/* Larger hero image on desktop */
+/* Larger hero image, positioned slightly right */
 @media (min-width: 981px) {
   .hero {
-    grid-template-columns: minmax(0, 0.9fr) minmax(600px, 1.1fr);
-    gap: clamp(24px, 3vw, 52px);
+    grid-template-columns: minmax(0, 0.86fr) minmax(620px, 1.14fr);
+    gap: clamp(20px, 2.5vw, 44px);
   }
 
   .hero-visual {
-    width: min(100%, 760px);
-    max-width: 760px;
+    width: min(100%, 820px);
+    max-width: 820px;
+    right: -24px;
   }
 }
-
