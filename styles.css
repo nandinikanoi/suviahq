@@ -816,3 +816,17 @@ footer {
     animation: none !important;
   }
 }
+
+/* Larger hero image on desktop */
+@media (min-width: 981px) {
+  .hero {
+    grid-template-columns: minmax(0, 0.9fr) minmax(600px, 1.1fr);
+    gap: clamp(24px, 3vw, 52px);
+  }
+
+  .hero-visual {
+    width: min(100%, 760px);
+    max-width: 760px;
+  }
+}
+
