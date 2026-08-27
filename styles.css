@@ -755,6 +755,17 @@ footer {
   .about-grid {
     padding-top: 50px;
     gap: 42px;
+    text-align: center;
+  }
+
+  .about-section .section-heading {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .about-section .section-heading p:first-child {
+    width: 100%;
+    text-align: center;
   }
 
   .about-grid h2,
@@ -762,9 +773,28 @@ footer {
     font-size: clamp(3.9rem, 18vw, 5.4rem);
   }
 
+  .about-grid h2,
+  .about-copy,
+  .about-copy > p {
+    margin-inline: auto;
+  }
+
+  .about-copy {
+    width: 100%;
+    text-align: center;
+  }
+
   .principle-row {
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    justify-content: stretch;
+    gap: 8px;
+    font-size: clamp(1rem, 4.7vw, 1.2rem);
+  }
+
+  .principle-row span {
+    text-align: center;
   }
 
   .statement-band {
